@@ -1,0 +1,7 @@
+{
+  "name": "hpcvol13",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-26",
+  "assets": { "directory": "./", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
+  "d1_databases": [{ "binding": "DB", "database_name": "hpcvol13-db" }]
+}
